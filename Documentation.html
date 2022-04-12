@@ -1,0 +1,763 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.10.0" />
+<title>Documentation API documentation</title>
+<meta name="description" content="" />
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
+<link rel="stylesheet preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/github.min.css" crossorigin>
+<style>:root{--highlight-color:#fe9}.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}h1:target,h2:target,h3:target,h4:target,h5:target,h6:target{background:var(--highlight-color);padding:.2em 0}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}dt:target .name{background:var(--highlight-color)}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}td{padding:0 .5em}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js" integrity="sha256-Uv3H6lx7dJmRfRvH8TH6kJD1TSK1aFcwgx+mdg3epi8=" crossorigin></script>
+<script>window.addEventListener('DOMContentLoaded', () => hljs.initHighlighting())</script>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>Documentation</code></h1>
+</header>
+<section id="section-intro">
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def stopword_removal(wordset):
+    &#34;&#34;&#34;
+    ### Description:
+    removes english stopwords from a tokenized list
+
+    ### Args:
+    `wordset`:list which contains one english word as one element
+
+    ### Returns:
+    returns a list in which doesn&#39;t contains english stopwords
+    &#34;&#34;&#34;
+    stops = set(stopwords.words(&#39;english&#39;))
+    new_wordset = [word for word in wordset if not word in stops]
+    return new_wordset
+
+
+def stemming(wordset):
+    &#34;&#34;&#34;
+    ### Description:
+    performs stemming on each word of the tokenized list
+
+    ### Args:
+    `wordset`:list which contains one english word as one element
+
+    ### Returns:
+    returns a list in which each element of the list stemmed
+    &#34;&#34;&#34;
+    stemmed_wordset = set()
+    # [snow_stemmer.stem(word) for word in wordset]
+    for word in wordset:
+        stemmed_wordset.add(snow_stemmer.stem(word))
+        #print(word,&#39; &#39;,stemmed_word)
+    return stemmed_wordset
+
+
+def addToBigramIndex(word):
+    &#34;&#34;&#34;
+    ### Description:
+    bigram_doc maintains an inverted index from bigrams to the terms that contain the bigram
+    This method adds element to a bigram_doc with bigram as keys and set of words containing that bigram as the value
+
+    ### Args:
+    `word`:Word whose bigrams need to be added to the bigram_doc
+
+    ### Returns:
+    Doesn&#39;t return anything but updates the bigram_doc
+    &#34;&#34;&#34;
+    orig = word
+    word = &#34;$&#34; + word + &#34;$&#34;
+    #word_bigram = splitter(word)
+    for i in range(0, len(word)-1):
+        bigram = word[i:i+2]
+        if bigram in bigram_doc.keys():
+            bigram_doc[bigram].add(orig)
+        else:
+            bigram_doc[bigram] = set()
+            bigram_doc[bigram].add(orig)
+
+
+def doc_name(list1):
+    &#34;&#34;&#34;
+    ### Description:
+    Returns the list of documents name when we are provided with a list of indexes
+    &#34;&#34;&#34;
+    docs = []
+    for k in list1:
+        docs.append(file_index[k])
+
+    return docs
+
+
+def intersection(list1, list2):
+    &#34;&#34;&#34;
+    ### Description:
+    Intersection of two arrays (used in AND)
+    &#34;&#34;&#34;
+    list3 = [value for value in list1 if value in list2]
+    return set(list3)
+
+
+def union(list1, list2):
+    &#34;&#34;&#34;
+    ### Description:
+    Union of two arrays (used in OR)
+    &#34;&#34;&#34;
+    temp_set = list1
+    temp_set.update(list2)
+    return temp_set
+
+
+def get_doc(word):
+    &#34;&#34;&#34;
+    ### Description:
+    This method return a list of documents which contain that word or that wildcard query. If its a wildcard query then documentis returned after postfiltering using regex 
+
+    ### Args:
+    `word`: whose document list needs to be returned
+
+    ### Returns:
+    document list containing that word or wildcard query is returned back
+    &#34;&#34;&#34;
+    if &#39;*&#39; in word:
+        if word[0] != &#39;*&#39;:
+            word = &#39;$&#39;+word
+
+        if word[-1] != &#39;*&#39;:
+            word = word+&#39;$&#39;
+
+        # print(word)
+        intersection_list = set()
+        flag = 1
+        for i in range(0, len(word)-1):
+            if word[i] != &#39;*&#39; and word[i+1] != &#39;*&#39;:
+                temp_bigram = word[i:i+2]
+                if temp_bigram in bigram_doc:
+                    # this will give you the list of all the word matching that pattern
+                    temp_list = list(bigram_doc[temp_bigram])
+                    if flag == 1:
+                        intersection_list = temp_list
+                        flag = 0
+                    else:
+                        # will contain the final words and now we will take their union
+                        intersection_list = intersection(
+                            intersection_list, temp_list)
+
+        postfiltering_list = []
+        # Post Filtering with Regex
+        regex_pattern = &#34;&#34;
+        if word[0] == &#39;$&#39;:
+            regex_pattern += &#34;^&#34;
+        else:
+            regex_pattern += &#34;.*&#34;
+
+        for i in range(1, len(word)-1):
+            if word[i] == &#39;*&#39;:
+                regex_pattern += &#39;.&#39;
+            else:
+                regex_pattern += word[i]
+
+        if word[-1] == &#39;$&#39;:
+            regex_pattern += &#34;$&#34;
+        else:
+            regex_pattern += &#34;.*&#34;
+
+        pattern = re.compile(regex_pattern)
+        for word1 in intersection_list:
+            if re.search(regex_pattern, word1):
+                postfiltering_list.append(word1)
+
+        final_list = set()
+        for word1 in postfiltering_list:
+            if word1 in word_doc:
+                # Comment the below line
+                # print(word1)
+                final_list = union(final_list, word_doc[word1])
+
+        return final_list
+    elif word in word_doc:
+        return word_doc[word]
+    else:
+        return set()
+
+# This method return the precedence of boolean operators
+
+
+def precedence(op):
+    &#34;&#34;&#34;
+    ### Description:
+    This method return the precedence of boolean operators
+    &#34;&#34;&#34;
+    if op == &#39;or&#39;:
+        return 1
+    if op == &#39;and&#39;:
+        return 2
+    if op == &#39;not&#39;:
+        return 3
+    return 0
+
+# This method applies boolean operation on the sub-query
+
+
+def applyOp(a, b, op):
+    &#34;&#34;&#34;
+    ### Description:
+    This method applies boolean operation on the sub-query
+    &#34;&#34;&#34;
+    if op == &#39;and&#39;:
+        return a.intersection(b)
+    if op == &#39;or&#39;:
+        return a.union(b)
+    if op == &#39;not&#39;:
+        return universal_set - a
+
+
+# This Method parses the provided query and returns the resultant list
+def query_parser(query):
+    &#34;&#34;&#34;
+    ### Description:
+    This Method parses the provided query and returns the resultant list
+    &#34;&#34;&#34;
+    query = &#34;(&#34; + query.lower() + &#34;)&#34;
+    expression = query.split()
+    temp_list = []
+    for token in expression:
+        i = 0
+        size = len(token)
+        while (i &lt; size and token[i] == &#34;(&#34;):
+            temp_list.append(&#34;(&#34;)
+            i = i + 1
+        temp_word = &#34;&#34;
+        while (i &lt; size and token[i] != &#34;)&#34;):
+            temp_word = temp_word + token[i]
+            i = i + 1
+        temp_list.append(temp_word)
+        while (i &lt; size and token[i] == &#34;)&#34;):
+            temp_list.append(&#34;)&#34;)
+            i = i + 1
+    return temp_list
+
+# This method evaluates the query provided by the user
+
+
+def evaluate(tokens):
+    &#34;&#34;&#34;
+    ### Description:
+    This method evaluates the query provided by the user
+    &#34;&#34;&#34;
+    values = []
+    ops = []
+    i = 0
+    while i &lt; len(tokens):
+
+        if tokens[i] == &#39;(&#39;:
+            ops.append(tokens[i])
+
+        elif tokens[i] == &#39;)&#39;:
+
+            while len(ops) != 0 and ops[-1] != &#39;(&#39;:
+
+                val2 = values.pop()
+                val1 = values.pop()
+                op = ops.pop()
+                values.append(applyOp(val1, val2, op))
+
+            ops.pop()
+
+        # Current token is an operator.
+        elif tokens[i] == &#39;and&#39; or tokens[i] == &#39;or&#39; or tokens[i] == &#39;not&#39;:
+
+            while (len(ops) != 0 and precedence(ops[-1]) &gt;= precedence(tokens[i])):
+
+                op = ops.pop()
+                if(op == &#39;not&#39;):
+
+                    val1 = values.pop()
+                    values.append(applyOp(val1, &#34;&#34;, op))
+
+                else:
+
+                    val1 = values.pop()
+                    val2 = values.pop()
+                    values.append(applyOp(val1, val2, op))
+
+            ops.append(tokens[i])
+
+        else:
+
+            values.append(get_doc(snow_stemmer.stem(tokens[i])))
+
+        i += 1
+
+    while len(ops) != 0:
+        op = ops.pop()
+        if(op == &#39;not&#39;):
+
+            val1 = values.pop()
+            values.append(val1, &#34;&#34;, op)
+
+        else:
+
+            val1 = values.pop()
+            val2 = values.pop()
+            values.append(applyOp(val1, val2, op))
+
+    return values[-1]</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-functions">Functions</h2>
+<dl>
+<dt id="Documentation.addToBigramIndex"><code class="name flex">
+<span>def <span class="ident">addToBigramIndex</span></span>(<span>word)</span>
+</code></dt>
+<dd>
+<div class="desc"><h3 id="description">Description:</h3>
+<p>bigram_doc maintains an inverted index from bigrams to the terms that contain the bigram
+This method adds element to a bigram_doc with bigram as keys and set of words containing that bigram as the value</p>
+<h3 id="args">Args:</h3>
+<p><code>word</code>:Word whose bigrams need to be added to the bigram_doc</p>
+<h3 id="returns">Returns:</h3>
+<p>Doesn't return anything but updates the bigram_doc</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def addToBigramIndex(word):
+    &#34;&#34;&#34;
+    ### Description:
+    bigram_doc maintains an inverted index from bigrams to the terms that contain the bigram
+    This method adds element to a bigram_doc with bigram as keys and set of words containing that bigram as the value
+
+    ### Args:
+    `word`:Word whose bigrams need to be added to the bigram_doc
+
+    ### Returns:
+    Doesn&#39;t return anything but updates the bigram_doc
+    &#34;&#34;&#34;
+    orig = word
+    word = &#34;$&#34; + word + &#34;$&#34;
+    #word_bigram = splitter(word)
+    for i in range(0, len(word)-1):
+        bigram = word[i:i+2]
+        if bigram in bigram_doc.keys():
+            bigram_doc[bigram].add(orig)
+        else:
+            bigram_doc[bigram] = set()
+            bigram_doc[bigram].add(orig)</code></pre>
+</details>
+</dd>
+<dt id="Documentation.applyOp"><code class="name flex">
+<span>def <span class="ident">applyOp</span></span>(<span>a, b, op)</span>
+</code></dt>
+<dd>
+<div class="desc"><h3 id="description">Description:</h3>
+<p>This method applies boolean operation on the sub-query</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def applyOp(a, b, op):
+    &#34;&#34;&#34;
+    ### Description:
+    This method applies boolean operation on the sub-query
+    &#34;&#34;&#34;
+    if op == &#39;and&#39;:
+        return a.intersection(b)
+    if op == &#39;or&#39;:
+        return a.union(b)
+    if op == &#39;not&#39;:
+        return universal_set - a</code></pre>
+</details>
+</dd>
+<dt id="Documentation.doc_name"><code class="name flex">
+<span>def <span class="ident">doc_name</span></span>(<span>list1)</span>
+</code></dt>
+<dd>
+<div class="desc"><h3 id="description">Description:</h3>
+<p>Returns the list of documents name when we are provided with a list of indexes</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def doc_name(list1):
+    &#34;&#34;&#34;
+    ### Description:
+    Returns the list of documents name when we are provided with a list of indexes
+    &#34;&#34;&#34;
+    docs = []
+    for k in list1:
+        docs.append(file_index[k])
+
+    return docs</code></pre>
+</details>
+</dd>
+<dt id="Documentation.evaluate"><code class="name flex">
+<span>def <span class="ident">evaluate</span></span>(<span>tokens)</span>
+</code></dt>
+<dd>
+<div class="desc"><h3 id="description">Description:</h3>
+<p>This method evaluates the query provided by the user</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def evaluate(tokens):
+    &#34;&#34;&#34;
+    ### Description:
+    This method evaluates the query provided by the user
+    &#34;&#34;&#34;
+    values = []
+    ops = []
+    i = 0
+    while i &lt; len(tokens):
+
+        if tokens[i] == &#39;(&#39;:
+            ops.append(tokens[i])
+
+        elif tokens[i] == &#39;)&#39;:
+
+            while len(ops) != 0 and ops[-1] != &#39;(&#39;:
+
+                val2 = values.pop()
+                val1 = values.pop()
+                op = ops.pop()
+                values.append(applyOp(val1, val2, op))
+
+            ops.pop()
+
+        # Current token is an operator.
+        elif tokens[i] == &#39;and&#39; or tokens[i] == &#39;or&#39; or tokens[i] == &#39;not&#39;:
+
+            while (len(ops) != 0 and precedence(ops[-1]) &gt;= precedence(tokens[i])):
+
+                op = ops.pop()
+                if(op == &#39;not&#39;):
+
+                    val1 = values.pop()
+                    values.append(applyOp(val1, &#34;&#34;, op))
+
+                else:
+
+                    val1 = values.pop()
+                    val2 = values.pop()
+                    values.append(applyOp(val1, val2, op))
+
+            ops.append(tokens[i])
+
+        else:
+
+            values.append(get_doc(snow_stemmer.stem(tokens[i])))
+
+        i += 1
+
+    while len(ops) != 0:
+        op = ops.pop()
+        if(op == &#39;not&#39;):
+
+            val1 = values.pop()
+            values.append(val1, &#34;&#34;, op)
+
+        else:
+
+            val1 = values.pop()
+            val2 = values.pop()
+            values.append(applyOp(val1, val2, op))
+
+    return values[-1]</code></pre>
+</details>
+</dd>
+<dt id="Documentation.get_doc"><code class="name flex">
+<span>def <span class="ident">get_doc</span></span>(<span>word)</span>
+</code></dt>
+<dd>
+<div class="desc"><h3 id="description">Description:</h3>
+<p>This method return a list of documents which contain that word or that wildcard query. If its a wildcard query then documentis returned after postfiltering using regex </p>
+<h3 id="args">Args:</h3>
+<p><code>word</code>: whose document list needs to be returned</p>
+<h3 id="returns">Returns:</h3>
+<p>document list containing that word or wildcard query is returned back</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_doc(word):
+    &#34;&#34;&#34;
+    ### Description:
+    This method return a list of documents which contain that word or that wildcard query. If its a wildcard query then documentis returned after postfiltering using regex 
+
+    ### Args:
+    `word`: whose document list needs to be returned
+
+    ### Returns:
+    document list containing that word or wildcard query is returned back
+    &#34;&#34;&#34;
+    if &#39;*&#39; in word:
+        if word[0] != &#39;*&#39;:
+            word = &#39;$&#39;+word
+
+        if word[-1] != &#39;*&#39;:
+            word = word+&#39;$&#39;
+
+        # print(word)
+        intersection_list = set()
+        flag = 1
+        for i in range(0, len(word)-1):
+            if word[i] != &#39;*&#39; and word[i+1] != &#39;*&#39;:
+                temp_bigram = word[i:i+2]
+                if temp_bigram in bigram_doc:
+                    # this will give you the list of all the word matching that pattern
+                    temp_list = list(bigram_doc[temp_bigram])
+                    if flag == 1:
+                        intersection_list = temp_list
+                        flag = 0
+                    else:
+                        # will contain the final words and now we will take their union
+                        intersection_list = intersection(
+                            intersection_list, temp_list)
+
+        postfiltering_list = []
+        # Post Filtering with Regex
+        regex_pattern = &#34;&#34;
+        if word[0] == &#39;$&#39;:
+            regex_pattern += &#34;^&#34;
+        else:
+            regex_pattern += &#34;.*&#34;
+
+        for i in range(1, len(word)-1):
+            if word[i] == &#39;*&#39;:
+                regex_pattern += &#39;.&#39;
+            else:
+                regex_pattern += word[i]
+
+        if word[-1] == &#39;$&#39;:
+            regex_pattern += &#34;$&#34;
+        else:
+            regex_pattern += &#34;.*&#34;
+
+        pattern = re.compile(regex_pattern)
+        for word1 in intersection_list:
+            if re.search(regex_pattern, word1):
+                postfiltering_list.append(word1)
+
+        final_list = set()
+        for word1 in postfiltering_list:
+            if word1 in word_doc:
+                # Comment the below line
+                # print(word1)
+                final_list = union(final_list, word_doc[word1])
+
+        return final_list
+    elif word in word_doc:
+        return word_doc[word]
+    else:
+        return set()</code></pre>
+</details>
+</dd>
+<dt id="Documentation.intersection"><code class="name flex">
+<span>def <span class="ident">intersection</span></span>(<span>list1, list2)</span>
+</code></dt>
+<dd>
+<div class="desc"><h3 id="description">Description:</h3>
+<p>Intersection of two arrays (used in AND)</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def intersection(list1, list2):
+    &#34;&#34;&#34;
+    ### Description:
+    Intersection of two arrays (used in AND)
+    &#34;&#34;&#34;
+    list3 = [value for value in list1 if value in list2]
+    return set(list3)</code></pre>
+</details>
+</dd>
+<dt id="Documentation.precedence"><code class="name flex">
+<span>def <span class="ident">precedence</span></span>(<span>op)</span>
+</code></dt>
+<dd>
+<div class="desc"><h3 id="description">Description:</h3>
+<p>This method return the precedence of boolean operators</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def precedence(op):
+    &#34;&#34;&#34;
+    ### Description:
+    This method return the precedence of boolean operators
+    &#34;&#34;&#34;
+    if op == &#39;or&#39;:
+        return 1
+    if op == &#39;and&#39;:
+        return 2
+    if op == &#39;not&#39;:
+        return 3
+    return 0</code></pre>
+</details>
+</dd>
+<dt id="Documentation.query_parser"><code class="name flex">
+<span>def <span class="ident">query_parser</span></span>(<span>query)</span>
+</code></dt>
+<dd>
+<div class="desc"><h3 id="description">Description:</h3>
+<p>This Method parses the provided query and returns the resultant list</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def query_parser(query):
+    &#34;&#34;&#34;
+    ### Description:
+    This Method parses the provided query and returns the resultant list
+    &#34;&#34;&#34;
+    query = &#34;(&#34; + query.lower() + &#34;)&#34;
+    expression = query.split()
+    temp_list = []
+    for token in expression:
+        i = 0
+        size = len(token)
+        while (i &lt; size and token[i] == &#34;(&#34;):
+            temp_list.append(&#34;(&#34;)
+            i = i + 1
+        temp_word = &#34;&#34;
+        while (i &lt; size and token[i] != &#34;)&#34;):
+            temp_word = temp_word + token[i]
+            i = i + 1
+        temp_list.append(temp_word)
+        while (i &lt; size and token[i] == &#34;)&#34;):
+            temp_list.append(&#34;)&#34;)
+            i = i + 1
+    return temp_list</code></pre>
+</details>
+</dd>
+<dt id="Documentation.stemming"><code class="name flex">
+<span>def <span class="ident">stemming</span></span>(<span>wordset)</span>
+</code></dt>
+<dd>
+<div class="desc"><h3 id="description">Description:</h3>
+<p>performs stemming on each word of the tokenized list</p>
+<h3 id="args">Args:</h3>
+<p><code>wordset</code>:list which contains one english word as one element</p>
+<h3 id="returns">Returns:</h3>
+<p>returns a list in which each element of the list stemmed</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def stemming(wordset):
+    &#34;&#34;&#34;
+    ### Description:
+    performs stemming on each word of the tokenized list
+
+    ### Args:
+    `wordset`:list which contains one english word as one element
+
+    ### Returns:
+    returns a list in which each element of the list stemmed
+    &#34;&#34;&#34;
+    stemmed_wordset = set()
+    # [snow_stemmer.stem(word) for word in wordset]
+    for word in wordset:
+        stemmed_wordset.add(snow_stemmer.stem(word))
+        #print(word,&#39; &#39;,stemmed_word)
+    return stemmed_wordset</code></pre>
+</details>
+</dd>
+<dt id="Documentation.stopword_removal"><code class="name flex">
+<span>def <span class="ident">stopword_removal</span></span>(<span>wordset)</span>
+</code></dt>
+<dd>
+<div class="desc"><h3 id="description">Description:</h3>
+<p>removes english stopwords from a tokenized list</p>
+<h3 id="args">Args:</h3>
+<p><code>wordset</code>:list which contains one english word as one element</p>
+<h3 id="returns">Returns:</h3>
+<p>returns a list in which doesn't contains english stopwords</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def stopword_removal(wordset):
+    &#34;&#34;&#34;
+    ### Description:
+    removes english stopwords from a tokenized list
+
+    ### Args:
+    `wordset`:list which contains one english word as one element
+
+    ### Returns:
+    returns a list in which doesn&#39;t contains english stopwords
+    &#34;&#34;&#34;
+    stops = set(stopwords.words(&#39;english&#39;))
+    new_wordset = [word for word in wordset if not word in stops]
+    return new_wordset</code></pre>
+</details>
+</dd>
+<dt id="Documentation.union"><code class="name flex">
+<span>def <span class="ident">union</span></span>(<span>list1, list2)</span>
+</code></dt>
+<dd>
+<div class="desc"><h3 id="description">Description:</h3>
+<p>Union of two arrays (used in OR)</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def union(list1, list2):
+    &#34;&#34;&#34;
+    ### Description:
+    Union of two arrays (used in OR)
+    &#34;&#34;&#34;
+    temp_set = list1
+    temp_set.update(list2)
+    return temp_set</code></pre>
+</details>
+</dd>
+</dl>
+</section>
+<section>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3><a href="#header-functions">Functions</a></h3>
+<ul class="two-column">
+<li><code><a title="Documentation.addToBigramIndex" href="#Documentation.addToBigramIndex">addToBigramIndex</a></code></li>
+<li><code><a title="Documentation.applyOp" href="#Documentation.applyOp">applyOp</a></code></li>
+<li><code><a title="Documentation.doc_name" href="#Documentation.doc_name">doc_name</a></code></li>
+<li><code><a title="Documentation.evaluate" href="#Documentation.evaluate">evaluate</a></code></li>
+<li><code><a title="Documentation.get_doc" href="#Documentation.get_doc">get_doc</a></code></li>
+<li><code><a title="Documentation.intersection" href="#Documentation.intersection">intersection</a></code></li>
+<li><code><a title="Documentation.precedence" href="#Documentation.precedence">precedence</a></code></li>
+<li><code><a title="Documentation.query_parser" href="#Documentation.query_parser">query_parser</a></code></li>
+<li><code><a title="Documentation.stemming" href="#Documentation.stemming">stemming</a></code></li>
+<li><code><a title="Documentation.stopword_removal" href="#Documentation.stopword_removal">stopword_removal</a></code></li>
+<li><code><a title="Documentation.union" href="#Documentation.union">union</a></code></li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc" title="pdoc: Python API documentation generator"><cite>pdoc</cite> 0.10.0</a>.</p>
+</footer>
+</body>
+</html>
