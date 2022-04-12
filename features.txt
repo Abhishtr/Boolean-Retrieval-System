@@ -1,0 +1,38 @@
+#This is a readme for our project
+We have Submitted the Jupyter notebook for our project.
+I will be describing the method call of main functions
+
+
+1> Stopword Removal - we have removed stopwords from the file contents using this method
+
+def stopword_removal(wordset):
+    stops = set(stopwords.words('english'))
+    new_wordset = [word for word in wordset if not word in stops]
+    return new_wordset
+
+this takes  a wordset, which is a list of tokenized words and then removes the stopword from that. Although while processing the contents of a file and query, they are called automatically.
+
+
+2> Stemming- For stemming we have used snowball stemmer which is improved version of porter. The method used is 
+
+def stemming(wordset):
+    stemmed_wordset = set()
+    for word in wordset:
+        stemmed_wordset.add(snow_stemmer.stem(word))
+    return stemmed_wordset
+
+
+3> Building Index - For building the file index, storing file contents, bigram index, Inverse word-Document, we have used for loops, one for each. Before storing file-contents, we are performing tokenization, stopword removal and stemming in this order. See the block with first line as "Building File Index", "storing file contents","Building Bigram Index", "Inverse word-Document"
+
+4>Querying: For mmaking Queries, make a new empty block in jupyter notebook and make functions calls. For examlple
+-
+
+1) print(doc_name(evaluate(query_parser("cleopatra and brutus"))))
+
+This would show you all the documents where 'cleopatra' and 'brutus' Occurs Together.
+
+2)doc_name(get_doc('juli*t'))
+This would give you all documents name where it matches the wildcard query 'juli*t'.
+
+3)doc_name(evaluate(query_parser("not (mon*) or (*beam)")))
+This would give you all the documents where mon* is not present in the document OR *beam is present in the document.
